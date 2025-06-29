@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3a3d47;
+    font-family: verdana;
+}
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10PX auto;
+}
+.superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+/*estilos para el menu de opciones*/
+.menu {
+    float: left;
+    padding: 20px;
+    margin-top: 15px; 
+}
+.opciones {
+    float: left;          
+    list-style: none;
+}
+
+.opciones li {
+    float: left;          
+}
+
+.opciones li a {          
+    display: block;
+    padding: 25px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.opciones li a:hover {
+    background: #0d356a;
+}
+/*estilos para el cuerpo*/
+.cuerpo {
+    overflow: hidden;
+}
+.caja {
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    color: #333;       /* Texto gris oscuro */
+    padding: 15px;
+    box-sizing: border-box;
+}
+.subtitulo {
+    background: #1551a1;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+.servicios {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.efecto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.contenido {
+    padding: 20px;
+    text-align: justify;
+
+}
+.boton {
+    padding: 10px 20px;
+    margin: 12px 0;
+    color: white;
+    background: #0b3061;
+    border-radius: 5px;
+}
+.boton:hover{
+    background: #041a36;
+    cursor: pointer;
+}
+.titulo {
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: #ff7600;
+    font-size: 35px;
+}
+/*estilos del footer*/
+.pie{
+    background: #062348;
+    overflow: hidden;
+}
+.izquierda {
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.derecha {
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.abajo {
+    color: white;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.siguenos {
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
