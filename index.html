@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        body {
+            background-color: #959b8a;
+            color: #c1cbb1;
+            line-height: 1.6;
+            background-image: url(img/greenbg.jpg);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no repeat;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #3c816c;
+            color: #ddeacb;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(46, 67, 45, 0.808)
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 0;
+        }
+
+        nav a {
+            display: block;
+            padding: 15px 20px;
+            background-color: #3c816c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background-color: #9eb785;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(31, 46, 32, 0.1);
+        }
+
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border: 6px solid #c4e0c9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #ceddb6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Programación Digítal</h1>
+        </header>
+
+        <hr width="90%">
+        <br>
+        <br>
+        <section>
+            <img src="img/fotomia.jpg" alt="Mi foto" width="300">
+        </section>
+        <h2> Proyectos </h2>
+        <nav>
+            <ul>
+                <br>
+                <li> <a href="Plantas/plantas.html">Plantas</a></li>
+                <li><a href="Cancionero/cancionero.html">Cancionero</a></li>
+                <li><a href="Tarea Remedial/remedial.html">Tarea Remedial</a></li>
+            </ul>
+        </nav>
+
+        <footer>
+            <fieldset style=">
+            border: 2px solid#c4e0c9;
+            border-radius: 8px;
+            padding: 12px 20px;
+            diplay: block;
+            background-color: rgba(60,129, 108, .15);
+            ">
+         Derechos Reservados &copy; Rebeca C.    
+        </fieldset>
+        </footer>
+    </div>
+</body>
+
+</html>
